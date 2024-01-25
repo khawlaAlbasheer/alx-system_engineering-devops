@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script to print "Best School" 10 times.
+var=1
+until ((var > 10))
+do
+	echo "Best School"
+	(( var++ ))
+done
