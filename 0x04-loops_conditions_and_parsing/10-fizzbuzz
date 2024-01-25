@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # FizzBuzz for numbers between 1 to 100
 i=1
-while [ $i -lt 21 ]
+while [ $i -lt 101 ]
 do
 	if [ $((i%15)) = 0 ]
 	then
